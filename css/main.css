@@ -5,25 +5,23 @@
 
 header {
 	width: 100%;
-	height: 580px;
+	height: 550px;
 	background: url(../img/background.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 170px;
+	padding-top: 150px;
 	position: relative;
 	margin-bottom: 40px;
 }
 
 header h1 {
-	color: #FFF;
 	font-size: 50px;
 	font-family: 'Montserrat', helvetica, arial, sans-serif;
-	color: #fff; 
+	color: #ffffff; 
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 20px;
 }
 
 header h2 {
@@ -31,6 +29,9 @@ header h2 {
 	font-size: 24px;
 	text-align: center;
 	color: #FFF;
+	font-weight: 200;
+	margin-bottom: 20px;
+
 }
 
 .bar  {
@@ -68,6 +69,7 @@ header h2 {
  	font-weight: 300;
  	position: relative;
  	top: -20px;
+ 	letter-spacing: 1px;
 }
 .bar time {
 	font-family: 'Teko', helvetica, arial,sans-serif;
@@ -77,32 +79,37 @@ header h2 {
  	text-align: center;
 	position: relative;
  	top: -20px;
+ 	letter-spacing: 1px;
 }
 
 .content {
 	font-family: 'Titillium Web', helvetica, arial, sans-serif;
 	width: 582px;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 	font-size: 18px;
 	font-weight: 300;
+	color: #949494
 }
 
 .content p {
-	margin-bottom: 25px;
+	margin-bottom: 40px;
+	line-height: 175%;
 }
 
 .content ul {
 	padding-left: 20px;
+	line-height: 100%;
 }
 
 .content li {
 	list-style: disc;
 	padding: 4px 0;
+	line-height: 20px;
 }
 
 .content a {
-	color: #555555
+	color: #949494
 }
 
 .comment {
@@ -125,6 +132,8 @@ header h2 {
 	margin-bottom: 20px;
 	padding-left: 15px;
 	border: 1px solid #dedede;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+	font-size: 14px;
 }
 
 .comment textarea {
@@ -134,6 +143,8 @@ header h2 {
 	padding-top: 15px;
 	padding-left: 15px;
 	margin-bottom: 20px;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+	font-size: 14px;
 }
 
 .comment button {
@@ -158,10 +169,11 @@ header h2 {
 
 .share p {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	color: #949494;
 	font-family: 'Titillium Web', helvetica, arial, sans-serif;
 	font-size: 16px;
+	font-weight: 200;
 }
 
 .social {
@@ -169,6 +181,9 @@ header h2 {
 	margin: 0 auto;
 	font-family: 'Teko', helvetica, arial,sans-serif;
 	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 300;
+
 }
 
 .social li {
@@ -186,12 +201,17 @@ header h2 {
 
 .social li a {
 	text-decoration: none;
-	color: #000;
+	color: #352d2f;
 
 }
 
 .article {
 	float: left;
+	font-family: 'Teko', helvetica, arial,sans-serif;
+	font-size:30px;
+	font-weight: 300;
+	letter-spacing:2px;
+
 }
 
 .article a {
@@ -202,7 +222,20 @@ header h2 {
 	display: inline-block;
 	padding-top: 90px;
 	padding-left: 90px;
-}
+ }
+
+ .article h3{
+ 	color: #bfbdbc;
+ 	font-weight: 300;
+ 	padding-bottom: 10px;
+ 	font-size:30;
+ }
+  .article h2{
+ 	font-weight: 300;
+ 	padding-bottom: 10px;
+ 	font-size: 40px;
+ }
+
 
 .previous {
 	background: url(../img/left.jpg) ;
@@ -216,7 +249,7 @@ header h2 {
 }
 
 .next {
-	background: url(../img/left.jpg) ;
+	background: url(../img/right.jpg) ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -232,21 +265,35 @@ footer {
 	padding-top: 15px;
 	padding-right: 20px;
 	padding-left: 20px;
+	font-family: 'Titillium Web', helvetica, arial, sans-serif;
+	font-size: 13px; 
+	color: #a6a6a6;
+
 }
 
 footer p {
 	float: left;
+	padding-left:150px;
+	
 }
 
 footer ul  {
 	float: right;
+	padding-right: 150px;
+
 }
 
 footer li {
-	float: left;
+	display: inline-block;	
+	padding-right: 30px;
+
+
 }
 
-
+footer a{
+	color: #a6a6a6;
+	text-decoration: none;
+}
 .cf:before,
 .cf:after {
     content: " "; 
